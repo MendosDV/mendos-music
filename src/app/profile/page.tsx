@@ -1,5 +1,11 @@
+import LapinCretin from "@/components/LapinCretin";
+
 export default function Profile() {
   return (
-    <h1>Profile Page</h1>
+    <div>
+      <h1>Profile Page</h1>
+      <p>Je suis un profile de : </p>
+      <LapinCretin />
+    </div>
   )
 }

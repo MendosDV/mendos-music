@@ -1,5 +1,10 @@
 import LapinCretin from "@/components/LapinCretin";
 
+export const metadata = {
+  title: 'Profile Lapin Crétin',
+  description: 'By Mickael for everyone',
+}
+
 export default function Profile() {
   return (
     <div>
